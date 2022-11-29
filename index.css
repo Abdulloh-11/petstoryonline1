@@ -1,0 +1,64 @@
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .hero{
+    background-image: url(./images/pandaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+ }
+ .bgyellow{
+    position: absolute;
+    width: 465px;
+height: 465px;
+left: calc(50% - 465px/2 + 239.5px);
+top: 92px;
+
+/* orang */
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+ }
+
+ .goal{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+height: 105px;
+width: 465px;
+
+border-radius: nullpx;
+
+ }
+
+ .how {
+   height: 29px;
+   width: 217px;
+   border-radius: nullpx;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 120%;
+  
+   
+   
+   color: #333B41;   
+ }
+ .pinkback{
+   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+opacity: 0.9;
+ }
+
+ .bg-gray-300{
+   border: 3px solid rgba(254, 189, 171, 0.74);
+ }
